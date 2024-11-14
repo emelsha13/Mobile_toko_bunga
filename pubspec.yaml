@@ -1,0 +1,26 @@
+name: toko_bunga_app
+description: A Flutter app for Toko Bunga with multiple pages.
+
+# Versi SDK Flutter yang dibutuhkan
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/foto.jpg
+    - assets/logo.jpg
+    - assets/mawar_merah.jpg
+    - assets/tulip.jpg
+    - assets/lily_putih.jpg
+    - assets/anggrek.jpg
